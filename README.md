@@ -1,5 +1,11 @@
 # ident-dm
 
+### 📄 `ident-dm.ipynb`
+
+You can simply clone this repository and run all the cells in this notebook to recreate the main Figure in Kawai+2025 (under review), or individual panels like the one shown below. More details are provided in the notebook.
+
+<img width="882" height="286" alt="Unknown" src="https://github.com/user-attachments/assets/97424ecd-a150-46d9-955f-1efcf0a4f3da" />
+
 ### 📄 `sample_planets.csv`
 
 This file contains the complete list of exoplanets analyzed in Kawai+2025 (under review), with key stellar and planetary parameters relevant in the study. The table is based on default parameters obtained from NASA Explanet archive as of May 22, 2025. From there, mass and eccentricity are updated for planets in Bonomo+2017, obliquity is updated for planets in Albrecht+2022 and Kundstrup+2025. Eccentricity of planets with assumed circular orbits are replaced with their upper limits when they are reported in the respective discovery papers. Errors for all parameters can be accessed with "err1" (upper) and "err2" (lower), as in NASA Exoplanet Archive.
